@@ -1,13 +1,13 @@
-function AdministrarCita() {
+function AdministrarCita({Mascota,Dueno,Fecha,Hora,Sintomas},id) {
     return (
 
         <div class="cita">
 
-            <p />Mascota: <span />Sifon
-            <p />Dueño: <span />Flecha
-            <p />Fecha: <span />2023-08-05
-            <p />Hora: <span />09:24
-            <p />Sintomas: <span />Duerme mucho
+            <p />Mascota: <span />{cita.Mascota}
+            <p />Dueño: <span />{cita.Dueno}
+            <p />Fecha: <span />{cita.Fecha}
+            <p />Hora: <span />{cita.Hora}
+            <p />Sintomas: <span />{cita.Sintomas}
             <button className="button eliminar u-full-width">
                 Eliminar
             </button>
