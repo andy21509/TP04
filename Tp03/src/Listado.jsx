@@ -3,9 +3,13 @@ import AdministrarCita from "./AdministrarCita";
 function Listado() {
     return (
         <>
-            <AdministrarCita />
-            <AdministrarCita />
-            <AdministrarCita />
+            <div class="one-half column">
+                <h2 />Administra tus citas
+                <AdministrarCita />
+                <AdministrarCita />
+                <AdministrarCita />
+            </div>
+
         </>
     );
 }
